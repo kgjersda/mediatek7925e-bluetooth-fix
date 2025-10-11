@@ -83,7 +83,7 @@ The rule matches your specific device by vendor/product ID and:
 
 ```bash
 # Download the script
-wget https://github.com/YOUR_USERNAME/mediatek-bluetooth-fix/raw/main/fix-mediatek-bluetooth.sh
+wget https://github.com/LuanAdemi/mediatek-bluetooth-fix/raw/main/fix-mediatek-bluetooth.sh
 
 # Make it executable
 chmod +x fix-mediatek-bluetooth.sh
