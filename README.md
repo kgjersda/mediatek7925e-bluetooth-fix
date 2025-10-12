@@ -76,10 +76,10 @@ The fix works at the udev level, which processes device events before GVFS can c
 wget https://raw.githubusercontent.com/LuanAdemi/mediatek7925e-bluetooth-fix/refs/heads/main/foxcon_fix.sh
 
 # Make it executable
-chmod +x fix-mediatek-bluetooth.sh
+chmod +x foxcon_fix.sh
 
 # Run it with sudo
-sudo ./fix-mediatek-bluetooth.sh
+sudo ./foxcon_fix.sh
 ```
 
 ### Manual Installation
