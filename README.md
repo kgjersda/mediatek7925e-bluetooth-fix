@@ -67,15 +67,6 @@ This script creates a **udev rule** that prevents the misidentification by:
 
 The fix works at the udev level, which processes device events before GVFS can claim the device.
 
-### What the udev Rule Does
-
-The rule matches your specific device by vendor/product ID and:
-
-- Clears incorrect identification flags
-- Tells userspace tools to ignore the device
-- Allows kernel drivers (btusb, mt7xxx) to claim it normally
-- Prevents desktop environments from trying to mount it
-
 ## Installation
 
 ### Quick Install
